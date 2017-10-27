@@ -1,2 +1,2 @@
-for(S=12,c=A=66,z=[i=132];i--;)z[i]=i%S?5:-1;X=a=>(D=[S,1,-S,-1]).map((b,e,j)=>1<z[b=a+2*j[3&e+i]]&&(z[b]=z[(a+b)/2]=0,i=9*Math.random(),X(b))),X(S+2),F=0;while(F<2){c==14?c=++F&&A:F||(z[c]=(z[c]+1)%4),5>z[n=c+D[z[c]]]&&(c=n),F||($=z.slice``),$[c]=4};""+$.map(b=>"    .#"[b]||`
+for(c=A=66,z=[i=132];i--;)z[i]=i%12?5:-1;X=a=>(D=[12,1,-12,-1]).map((b,e,j)=>1<z[b=a+2*j[3&e+i]]&&(z[b]=z[(a+b)/2]=0,i=9*Math.random(),X(b))),X(14),F=0;while(F<2){c==14?c=++F&&A:F||(z[c]=(z[c]+1)%4),5>z[n=c+D[z[c]]]&&(c=n),F||($=z.slice``),$[c]=4};""+$.map(b=>"    .X"[b]||`
 `)
