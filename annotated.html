@@ -63,11 +63,12 @@
         Z = z.slice``     // create a copy to render
       )
 
+      Z[13] =             // mark exit
       Z[c] = 4            // highlight mouse
 
       p.innerText =       // render array
         Z.map(i =>        // map numbers to characters
-          "    +X"[i] ||  // "X" = wall, "+" = mouse, "\n"
+          "....o█"[i] ||  // "X" = wall, "+" = mouse, "\n"
 `
 `
         )
