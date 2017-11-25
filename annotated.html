@@ -4,7 +4,7 @@
   <tt id=p>
   <script>
 
-    S = 12                // maze size
+    S = 20                // maze size
     c =                   // current position
     A = S * (S - 1) / 2;  // start position = maze center
     B = S + 2;            // end
@@ -12,7 +12,7 @@
     for (
 
       z = [
-        i = 132           // S * (S-1)
+        i = S*(S-1)           // S * (S-1)
       ];
       i--;
     ) z[i] =              // set cell content
@@ -63,7 +63,7 @@
         Z = z.slice``     // create a copy to render
       )
 
-      Z[13] =             // mark exit
+      Z[S+1] =             // mark exit
       Z[c] = 4            // highlight mouse
 
       p.innerText =       // render array

@@ -7,6 +7,7 @@
     <meta property="og:image" content="http://aem1k.com/theseus/preview.png" />
     <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
     <link href='http://aem1k.com/styles.css' rel='stylesheet' type='text/css'>
+    <style>#p { line-height: 1em }</style>
   </head>
   <body>
 
@@ -16,7 +17,7 @@
       <p>Creating and solving a maze in only <br>256 bytes of JavaScript.</p>
 
       <pre id=p></pre>
-      <script>for(S=12,c=A=66,z=[i=132];i--;)z[i]=i%S?5:-1;X=a=>(D=[S,1,-S,-1]).map((b,e,j)=>1<z[b=a+2*j[3&e+i]]&&(z[b]=z[(a+b)/2]=0,i=9*Math.random(),X(b))),X(S+2),F=0,setInterval(_=>{c==14?F=c=A:F||(z[c]=(z[c]+1)%4),5>z[n=c+D[z[c]]]&&(c=n),(Z=F?Z:z.slice``)[c]=4,p.innerText=Z.map(b=>"    +@"[b]||`
+      <script>for(S=12,c=A=66,z=[i=132];i--;)z[i]=i%S?5:-1;X=a=>(D=[S,1,-S,-1]).map((b,e,j)=>1<z[b=a+2*j[3&e+i]]&&(z[b]=z[(a+b)/2]=0,i=9*Math.random(),X(b))),X(S+2),F=0,setInterval(_=>{c==14?F=c=A:F||(z[c]=(z[c]+1)%4),5>z[n=c+D[z[c]]]&&(c=n),(Z=F?Z:z.slice``)[c]=4,Z[13]=4,p.innerText=Z.map(b=>"    +@"[b]||`
         `)},0)</script>
 
       <br>
@@ -35,8 +36,10 @@ z[n=c+_[z[c]]]&&(c=n);""+$.map(b=>`
       <h3>Links</h3>
 
       <ul>
-        <li><a href="https://github.com/aemkei/theseus">github.com/aemkei/theseus</a> - Source</li>
         <li><a href="http://aem1k.com/">aem1k.com</a> - Home</li>
+        <li><a href="https://github.com/aemkei/theseus">github.com/aemkei/theseus</a> - Source</li>
+        <li><a href="https://speakerdeck.com/aemkei/fwdays">speakerdeck.com/aemkei/fwdays</a> - Presentation</li>
+        <li><a href="http://cyberneticzoo.com/mazesolvers/1952-%E2%80%93-theseus-maze-solving-mouse-%E2%80%93-claude-shannon-american/">maze solving machine</a> - by Claude Shannon</li>
       </ul>
 
     </div>
