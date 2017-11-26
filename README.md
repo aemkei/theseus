@@ -37,5 +37,5 @@ z[n=c+_[z[c]]]&&(c=n);""+$.map(b=>`
 
 * [aem1k.com](http://aem1k.com/) - Home
 * [github.com/aemkei/theseus](https://github.com/aemkei/theseus) - Source
-* [speakerdeck.com/aemkei/fwdays](https://speakerdeck.com/aemkei/fwdays) - Presentation
+* [speakerdeck.com/aemkei/fwdays-daedalus](https://speakerdeck.com/aemkei/fwdays-daedalus?slide=130) - Presentation
 * [maze solving machine](http://cyberneticzoo.com/mazesolvers/1952-%E2%80%93-theseus-maze-solving-mouse-%E2%80%93-claude-shannon-american/) - by Claude Shannon
